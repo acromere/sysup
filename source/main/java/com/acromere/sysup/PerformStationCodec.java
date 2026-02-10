@@ -1,9 +1,9 @@
-package com.avereon.sysup;
+package com.acromere.sysup;
 
-import com.avereon.product.Product;
-import com.avereon.product.Rb;
-import com.avereon.xenon.resource.Resource;
-import com.avereon.xenon.resource.Codec;
+import com.acromere.product.Product;
+import com.acromere.product.Rb;
+import com.acromere.xenon.resource.Resource;
+import com.acromere.xenon.resource.Codec;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
 
@@ -18,7 +18,7 @@ import java.util.List;
 
 public class PerformStationCodec extends Codec {
 
-	public static final String MEDIA_TYPE = "application/vnd.avereon.perform.stations";
+	public static final String MEDIA_TYPE = "application/vnd.acromere.perform.stations";
 
 	private static final String EXTENSION_PFMSTN = "pfmstn";
 

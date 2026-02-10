@@ -1,4 +1,4 @@
-package com.avereon.sysup;
+package com.acromere.sysup;
 
 public enum Type {
 

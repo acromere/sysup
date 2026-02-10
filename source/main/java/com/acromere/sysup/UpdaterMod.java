@@ -1,10 +1,10 @@
-package com.avereon.sysup;
+package com.acromere.sysup;
 
-import com.avereon.xenon.Module;
-import com.avereon.xenon.ToolRegistration;
-import com.avereon.zenna.icon.AvereonIcon;
-import com.avereon.zenna.icon.PerformIcon;
-import com.avereon.zenna.icon.SouthBranchIcon;
+import com.acromere.xenon.Module;
+import com.acromere.xenon.ToolRegistration;
+import com.acromere.zenna.icon.AcromereIcon;
+import com.acromere.zenna.icon.PerformIcon;
+import com.acromere.zenna.icon.SouthBranchIcon;
 import lombok.CustomLog;
 import lombok.Getter;
 
@@ -25,7 +25,7 @@ public class UpdaterMod extends Module {
 	@Override
 	public void startup() throws Exception {
 		super.startup();
-		registerIcon( "avereon", new AvereonIcon() );
+		registerIcon( "acromere", new AcromereIcon() );
 		registerIcon( "perform", new PerformIcon() );
 		registerIcon( "updater", new PerformIcon() );
 

@@ -1,7 +1,7 @@
-package com.avereon.sysup;
+package com.acromere.sysup;
 
-import com.avereon.skill.Controllable;
-import com.avereon.xenon.Xenon;
+import com.acromere.skill.Controllable;
+import com.acromere.xenon.Xenon;
 import lombok.Getter;
 
 import java.util.Map;

@@ -1,9 +1,9 @@
-package com.avereon.sysup;
+package com.acromere.sysup;
 
-import com.avereon.xenon.Xenon;
-import com.avereon.xenon.resource.Resource;
-import com.avereon.xenon.resource.exception.ResourceException;
-import com.avereon.xenon.scheme.ProductScheme;
+import com.acromere.xenon.Xenon;
+import com.acromere.xenon.resource.Resource;
+import com.acromere.xenon.resource.exception.ResourceException;
+import com.acromere.xenon.scheme.ProductScheme;
 
 public class PerformScheme extends ProductScheme {
 

@@ -1,9 +1,9 @@
-package com.avereon.sysup;
+package com.acromere.sysup;
 
-import com.avereon.util.ThreadUtil;
-import com.avereon.xenon.notice.Notice;
-import com.avereon.xenon.task.Task;
-import com.avereon.zerra.javafx.Fx;
+import com.acromere.util.ThreadUtil;
+import com.acromere.xenon.notice.Notice;
+import com.acromere.xenon.task.Task;
+import com.acromere.zerra.javafx.Fx;
 import com.jcraft.jsch.ChannelExec;
 import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.JSchException;

@@ -1,6 +1,6 @@
-package com.avereon.sysup;
+package com.acromere.sysup;
 
-import com.avereon.zenna.icon.PerformIcon;
+import com.acromere.zenna.icon.PerformIcon;
 
 public class UpdaterIcon extends PerformIcon {
 

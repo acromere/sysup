@@ -1,7 +1,7 @@
-package com.avereon.sysup;
+package com.acromere.sysup;
 
-import com.avereon.xenon.XenonProgramProduct;
-import com.avereon.xenon.resource.ResourceType;
+import com.acromere.xenon.XenonProgramProduct;
+import com.acromere.xenon.resource.ResourceType;
 import lombok.CustomLog;
 
 @CustomLog
