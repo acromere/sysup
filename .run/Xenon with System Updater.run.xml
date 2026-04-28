@@ -4,6 +4,7 @@
     <option name="MAIN_CLASS_NAME" value="com.acromere.xenon.Xenon" />
     <module name="sysup" />
     <option name="PROGRAM_PARAMETERS" value="--noupdate --profile dev --log-level config --enable-mod com.acromere.sysup" />
+    <option name="VM_PARAMETERS" value="-Dprism.forceGPU=true --enable-native-access=javafx.graphics" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
