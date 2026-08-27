@@ -40,7 +40,7 @@ public class PerformStationCodec extends Codec {
 
 	@Override
 	public String getName() {
-		return Rb.text( "asset", "codec-perform-station-name" );
+		return Rb.text( "resource", "codec-perform-station-name" );
 	}
 
 	@Override
