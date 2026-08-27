@@ -3,7 +3,7 @@ package com.acromere.sysup;
 import com.acromere.xenon.ProgramTool;
 import com.acromere.xenon.XenonProgramProduct;
 import com.acromere.xenon.resource.Resource;
-import com.acromere.xenon.resource.OpenAssetRequest;
+import com.acromere.xenon.resource.OpenResourceRequest;
 import com.acromere.xenon.workpane.ToolException;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -36,7 +36,7 @@ public class UpdaterTool extends ProgramTool {
 	}
 
 	@Override
-	protected void ready( OpenAssetRequest request ) throws ToolException {
+	protected void ready( OpenResourceRequest request ) throws ToolException {
 		super.ready( request );
 		setTitle( request.getResource().getName() );
 		//setTitle( "Station Updater" );
