@@ -41,7 +41,7 @@ public class UpdaterTool extends ProgramTool {
 		setTitle( request.getResource().getName() );
 		//setTitle( "Station Updater" );
 
-		// The stations model from the asset
+		// The stations model from the resource
 		Resource resource = request.getResource();
 		List<Station> stations = resource.getModel();
 		ObservableList<StationStatus> status = FXCollections.observableArrayList( stations.stream().map( StationStatus::new ).toList() );

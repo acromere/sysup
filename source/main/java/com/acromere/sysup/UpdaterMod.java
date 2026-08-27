@@ -31,7 +31,7 @@ public class UpdaterMod extends Module {
 
 		getProgram().getResourceManager().addScheme( new PerformScheme( getProgram() ) );
 
-		// Register the asset type
+		// Register the resource type
 		performStationsAssetType = new PerformStationsResourceType( this );
 		registerAssetType( performStationsAssetType );
 
